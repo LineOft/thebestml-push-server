@@ -1,13 +1,14 @@
 {
   "name": "thebestml-push-server",
-  "version": "1.0.0",
-  "description": "TheBestML Push Notification Server",
+  "version": "1.1.0",
+  "description": "TheBestML Push Notification & Storage Server",
   "main": "api/send-notification.js",
   "scripts": {
     "dev": "vercel dev",
     "deploy": "vercel --prod"
   },
   "dependencies": {
-    "firebase-admin": "^12.0.0"
+    "firebase-admin": "^12.0.0",
+    "@aws-sdk/client-s3": "^3.450.0"
   }
 }
